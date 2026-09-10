@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #e8e8e8;
+}
+
+.cal {
+  width: 290px;
+  background: #3a3a3a;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+#out {
+  background: #222;
+  color: #0f0;
+  font-size: 28px;
+  text-align: right;
+  padding: 14px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  height: 30px;
+}
+
+.btns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+
+.btns button {
+  height: 46px;
+  font-size: 17px;
+  border: none;
+  border-radius: 6px;
+  background: #555;
+  color: #fff;
+  cursor: pointer;
+}
